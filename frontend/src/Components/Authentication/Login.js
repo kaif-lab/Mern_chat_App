@@ -61,7 +61,9 @@ const Login = () => {
         width="100%"
         // color ="white"
         style={{marginTop : 15}}
-        onClick={submitHandler}
+        onClick={()=>{
+            setEmail("guest@example.com")
+        }}
         
         >
           Login
